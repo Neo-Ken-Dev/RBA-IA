@@ -32,7 +32,7 @@ def get_device_type(user_agent):
     else:
         return 'Other'
 
-# Fonction qui sera utiliser pour transformer les informations reçu de l'API
+# Fonction qui sera utilisée pour transformer les informations reçu de l'API
 def process_data(json_data):
     # Transformer JSON en DataFrame
     df = pd.DataFrame([json_data])
